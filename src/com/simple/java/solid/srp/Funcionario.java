@@ -14,6 +14,7 @@ public class Funcionario {
         this.cargo = cargo;
         this.dataDeAdmissao = Calendar.getInstance();
         this.salarioBase = salarioBase;
+        this.salarioBase += calcular();
     }
 
     public String getNome() {
@@ -41,4 +42,16 @@ public class Funcionario {
         this.salarioBase = salarioBase;
     }
 
+    public Double calcular(){
+        return cargo.calcular(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Funcionario{" +
+                "nome='" + nome + '\'' +
+                ", cargo=" + cargo +
+                ", salarioBase=" + salarioBase +
+                '}';
+    }
 }
