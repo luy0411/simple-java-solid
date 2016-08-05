@@ -1,0 +1,19 @@
+===================================================
+================ Design Principles ================
+==================== S.O.L.I.D ====================
+===================================================
+
+######### SRP - SINGLE RESPONSABILITY PRINCIPLE ###########
+
+######### OCP - OPEN/CLOSED PRINCIPLE ###########
+
+######### LSP - LISKOV SUBSTITUTION PRINCIPLE ###########
+
+######### ISP - INTERFACE SEGREGATION PRINCIPLE ###########
+
+######### DIP - DEPENDENCY INVERSION PRINCIPLE ###########
+
+===============================================
+================== Source =====================
+===============================================
+https://sourcemaking.com/design_patterns
