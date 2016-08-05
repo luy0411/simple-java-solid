@@ -1,4 +1,4 @@
-package com.simple.java.solid.lsp;
+package com.simple.java.solid.isp;
 
 public class EnviadorEmail implements AcaoPosGeracao, AcaoPreEnvioEmail {
 

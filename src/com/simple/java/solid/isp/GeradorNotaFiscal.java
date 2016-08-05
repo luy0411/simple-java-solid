@@ -1,4 +1,4 @@
-package com.simple.java.solid.lsp;
+package com.simple.java.solid.isp;
 
 import java.util.Arrays;
 import java.util.List;
