@@ -1,6 +1,7 @@
 package com.simple.java.solid.srp;
 
 public enum Cargo {
+
     DESENVOLVEDOR(new RegraDezOuVintePorcento()),
     DBA(new RegraQuinzeOuVinteCincoPorcento()),
     TESTER(new RegraQuinzeOuVinteCincoPorcento());
